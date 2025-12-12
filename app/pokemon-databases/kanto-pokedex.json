@@ -1,0 +1,2347 @@
+{
+    "pokemon": [
+        {
+            "id": 1,
+            "name": "Bulbasaur",
+            "balls": [
+                "friend-ball",
+                "lure-ball",
+                "great-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Ivysaur",
+            "balls": [
+                "friend-ball",
+                "lure-ball",
+                "great-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Venusaur",
+            "balls": [
+                "friend-ball",
+                "lure-ball",
+                "great-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Charmander",
+            "balls": [
+                "repeat-ball"
+            ],
+            "shiny-balls": [
+                "level-ball",
+                "repeat-ball"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Charmeleon",
+            "balls": [
+                "repeat-ball",
+                "poke-ball"
+            ],
+            "shiny-balls": [
+                "level-ball",
+                "repeat-ball"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Charizard",
+            "balls": [
+                "repeat-ball"
+            ],
+            "shiny-balls": [
+                "luxury-ball",
+                "timer-ball"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Squirtle",
+            "balls": [
+                "dive-ball",
+                "moon-ball",
+                "great-ball"
+            ],
+            "shiny-balls": [
+                "dive-ball",
+                "dream-ball"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Wartortle",
+            "balls": [
+                "dive-ball",
+                "moon-ball",
+                "great-ball"
+            ],
+            "shiny-balls": [
+                "dive-ball",
+                "dream-ball",
+                "master-ball"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Blastoise",
+            "balls": [
+                "dive-ball",
+                "moon-ball",
+                "great-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "dream-ball",
+                "master-ball"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Caterpie",
+            "balls": [
+                "nest-ball",
+                "friend-ball"
+            ],
+            "shiny-balls": [
+                "level-ball",
+                "luxury-ball"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Metapod",
+            "balls": [
+                "nest-ball",
+                "friend-ball"
+            ],
+            "shiny-balls": [
+                "repeat-ball",
+                "sport-ball",
+                "poke-ball"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Butterfree",
+            "balls": [
+                "timer-ball",
+                "master-ball",
+                "heal-ball"
+            ],
+            "shiny-balls": [
+                "timer-ball",
+                "dream-ball",
+                "heal-ball"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Weedle",
+            "balls": [
+                "nest-ball",
+                "ultra-ball",
+                "luxury-ball"
+            ],
+            "shiny-balls": [
+                "ultra-ball",
+                "luxury-ball"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Kakuna",
+            "balls": [
+                "ultra-ball",
+                "level-ball"
+            ],
+            "shiny-balls": [
+                "dusk-ball",
+                "nest-ball",
+                "friend-ball"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Beedrill",
+            "balls": [
+                "level-ball",
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "dusk-ball",
+                "nest-ball",
+                "friend-ball"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Pidgey",
+            "balls": [
+                "nest-ball",
+                "luxury-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "ultra-ball",
+                "luxury-ball",
+                "safari-ball"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Pidgeotto",
+            "balls": [
+                "level-ball",
+                "fast-ball",
+                "repeat-ball"
+            ],
+            "shiny-balls": [
+                "ultra-ball",
+                "luxury-ball"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Pidgeot",
+            "balls": [
+                "level-ball",
+                "fast-ball",
+                "repeat-ball"
+            ],
+            "shiny-balls": [
+                "ultra-ball",
+                "luxury-ball"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Rattata",
+            "balls": [
+                "heal-ball",
+                "dream-ball",
+                "master-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "ultra-ball",
+                        "luxury-ball",
+                        "timer-ball"
+                    ],
+                    "shiny-balls": [
+                        "poke-ball",
+                        "timer-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Raticate",
+            "balls": [
+                "nest-ball",
+                "safari-ball",
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "poke-ball",
+                "fast-ball",
+                "premier-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "ultra-ball",
+                        "luxury-ball",
+                        "timer-ball"
+                    ],
+                    "shiny-balls": [
+                        "poke-ball",
+                        "timer-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Spearow",
+            "balls": [
+                "nest-ball",
+                "safari-ball",
+                "level-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "level-ball"
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Fearow",
+            "balls": [
+                "nest-ball",
+                "safari-ball",
+                "level-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball",
+                "level-ball"
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Ekans",
+            "balls": [
+                "heal-ball",
+                "master-ball",
+                "dream-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball"
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Arbok",
+            "balls": [
+                "heal-ball",
+                "master-ball",
+                "dream-ball"
+            ],
+            "shiny-balls": [
+                "ultra-ball",
+                "level-ball",
+                "luxury-ball"
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Pikachu",
+            "balls": [
+                "level-ball",
+                "ultra-ball",
+                "fast-ball"
+            ],
+            "shiny-balls": [
+                "level-ball",
+                "ultra-ball",
+                "fast-ball"
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Raichu",
+            "balls": [
+                "level-ball",
+                "ultra-ball",
+                "fast-ball"
+            ],
+            "shiny-balls": [
+                "level-ball",
+                "ultra-ball",
+                "repeat-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "quick-ball",
+                        "ultra-ball"
+                    ],
+                    "shiny-balls": [
+                        "luxury-ball",
+                        "ultra-ball",
+                        "level-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Sandshrew",
+            "balls": [
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "friend-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "dive-ball",
+                        "premier-ball"
+                    ],
+                    "shiny-balls": [
+                        "dive-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Sandslash",
+            "balls": [
+                "ultra-ball",
+                "luxury-ball",
+                "nest-ball"
+            ],
+            "shiny-balls": [
+                "level-ball",
+                "luxury-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "dive-ball"
+                    ],
+                    "shiny-balls": [
+                        "dive-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Nidoran♀",
+            "balls": [
+                "dive-ball",
+                "great-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball",
+                "dream-ball",
+                "love-ball"
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Nidorina",
+            "balls": [
+                "dive-ball",
+                "great-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball",
+                "dream-ball",
+                "love-ball"
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Nidoqueen",
+            "balls": [
+                "quick-ball",
+                "great-ball",
+                "moon-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball",
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Nidoran♂",
+            "balls": [
+                "dream-ball",
+                "heal-ball",
+                "master-ball"
+            ],
+            "shiny-balls": [
+                "great-ball",
+                "dive-ball"
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Nidorino",
+            "balls": [
+                "dream-ball",
+                "heal-ball",
+                "master-ball"
+            ],
+            "shiny-balls": [
+                "great-ball",
+                "dive-ball"
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Nidoking",
+            "balls": [
+                "dream-ball",
+                "heal-ball",
+                "master-ball"
+            ],
+            "shiny-balls": [
+                "great-ball",
+                "dive-ball",
+                "moon-ball"
+            ]
+        },
+        {
+            "id": 35,
+            "name": "Clefairy",
+            "balls": [
+                "love-ball",
+                "heal-ball",
+                "moon-ball"
+            ],
+            "shiny-balls": [
+                "love-ball",
+                "heal-ball",
+                "moon-ball"
+            ]
+        },
+        {
+            "id": 36,
+            "name": "Clefable",
+            "balls": [
+                "love-ball",
+                "heal-ball",
+                "moon-ball"
+            ],
+            "shiny-balls": [
+                "love-ball",
+                "heal-ball",
+                "dream-ball"
+            ]
+        },
+        {
+            "id": 37,
+            "name": "Vulpix",
+            "balls": [
+                "repeat-ball"
+            ],
+            "shiny-balls": [
+                "ultra-ball",
+                "level-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "dive-ball",
+                        "premier-ball"
+                    ],
+                    "shiny-balls": [
+                        "premier-ball",
+                        "dive-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "name": "Ninetales",
+            "balls": [
+                "ultra-ball",
+                "level-ball"
+            ],
+            "shiny-balls": [
+                "premier-ball",
+                "heavy-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "dive-ball",
+                        "premier-ball"
+                    ],
+                    "shiny-balls": [
+                        "premier-ball",
+                        "dive-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "name": "Jigglypuff",
+            "balls": [
+                "love-ball",
+                "heal-ball",
+                "dream-ball"
+            ],
+            "shiny-balls": [
+                "love-ball",
+                "heal-ball",
+                "dream-ball"
+            ]
+        },
+        {
+            "id": 40,
+            "name": "Wigglytuff",
+            "balls": [
+                "love-ball",
+                "heal-ball",
+                "dream-ball"
+            ],
+            "shiny-balls": [
+                "love-ball",
+                "heal-ball",
+                "dream-ball"
+            ]
+        },
+        {
+            "id": 41,
+            "name": "Zubat",
+            "balls": [
+                "great-ball",
+                "moon-ball"
+            ],
+            "shiny-balls": [
+                "dusk-ball",
+                "nest-ball",
+                "friend-ball"
+            ]
+        },
+        {
+            "id": 42,
+            "name": "Golbat",
+            "balls": [
+                "great-ball",
+                "moon-ball"
+            ],
+            "shiny-balls": [
+                "dusk-ball",
+                "nest-ball",
+                "friend-ball"
+            ]
+        },
+        {
+            "id": 43,
+            "name": "Oddish",
+            "balls": [
+                "great-ball",
+                "nest-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "nest-ball",
+                "dusk-ball"
+            ]
+        },
+        {
+            "id": 44,
+            "name": "Gloom",
+            "balls": [
+                "great-ball",
+                "lure-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "nest-ball",
+                "dusk-ball"
+            ]
+        },
+        {
+            "id": 45,
+            "name": "Vileplume",
+            "balls": [
+                "great-ball",
+                "lure-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "nest-ball",
+                "dusk-ball"
+            ]
+        },
+        {
+            "id": 46,
+            "name": "Paras",
+            "balls": [
+                "repeat-ball",
+                "sport-ball",
+                "repeat-ball"
+            ],
+            "shiny-balls": [
+                "repeat-ball",
+                "sport-ball",
+                "repeat-ball"
+            ]
+        },
+        {
+            "id": 47,
+            "name": "Parasect",
+            "balls": [
+                "repeat-ball",
+                "sport-ball",
+                "repeat-ball"
+            ],
+            "shiny-balls": [
+                "level-ball",
+                "repeat-ball",
+                "ultra-ball"
+            ]
+        },
+        {
+            "id": 48,
+            "name": "Venonat",
+            "balls": [
+                "dream-ball",
+                "heal-ball",
+                "master-ball"
+            ],
+            "shiny-balls": [
+                "heavy-ball",
+                "great-ball"
+            ]
+        },
+        {
+            "id": 49,
+            "name": "Venomoth",
+            "balls": [
+                "dream-ball",
+                "heal-ball",
+                "love-ball"
+            ],
+            "shiny-balls": [
+                "dive-ball"
+            ]
+        },
+        {
+            "id": 50,
+            "name": "Diglett",
+            "balls": [
+                "nest-ball",
+                "luxury-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "heavy-ball",
+                "nest-ball",
+                "great-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "luxury-ball",
+                        "ultra-ball"
+                    ],
+                    "shiny-balls": [
+                        "lure-ball",
+                        "great-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "name": "Dugtrio",
+            "balls": [
+                "nest-ball",
+                "luxury-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "heavy-ball",
+                "nest-ball",
+                "great-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "luxury-ball",
+                        "ultra-ball"
+                    ],
+                    "shiny-balls": [
+                        "lure-ball",
+                        "moon-ball",
+                        "ultra-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "name": "Meowth",
+            "balls": [
+                "luxury-ball",
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "luxury-ball",
+                "ultra-ball",
+                "premier-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "moon-ball",
+                        "luxury-ball"
+                    ],
+                    "shiny-balls": [
+                        "moon-ball",
+                        "luxury-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "name": "Persian",
+            "balls": [
+                "luxury-ball",
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "luxury-ball",
+                "premier-ball",
+                "ultra-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "moon-ball",
+                        "luxury-ball",
+                        "dive-ball"
+                    ],
+                    "shiny-balls": [
+                        "moon-ball",
+                        "luxury-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "name": "Psyduck",
+            "balls": [
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "dive-ball",
+                "strange-ball"
+            ]
+        },
+        {
+            "id": 55,
+            "name": "Golduck",
+            "balls": [
+                "lure-ball",
+                "quick-ball",
+                "dive-ball"
+            ],
+            "shiny-balls": [
+                "lure-ball",
+                "great-ball",
+                "dive-ball"
+            ]
+        },
+        {
+            "id": 56,
+            "name": "Mankey",
+            "balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball"
+            ]
+        },
+        {
+            "id": 57,
+            "name": "Primeape",
+            "balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball"
+            ]
+        },
+        {
+            "id": 58,
+            "name": "Growlithe",
+            "balls": [
+                "repeat-ball",
+                "fast-ball"
+            ],
+            "shiny-balls": [
+                "ultra-ball",
+                "level-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Hisuian",
+                    "balls": [
+                        "repeat-ball"
+                    ],
+                    "shiny-balls": [
+                        "ultra-ball",
+                        "level-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "name": "Arcanine",
+            "balls": [
+                "repeat-ball",
+                "fast-ball"
+            ],
+            "shiny-balls": [
+                "ultra-ball",
+                "level-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Hisuian",
+                    "balls": [
+                        "repeat-ball"
+                    ],
+                    "shiny-balls": [
+                        "ultra-ball",
+                        "level-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 60,
+            "name": "Poliwag",
+            "balls": [
+                "dive-ball"
+            ],
+            "shiny-balls": [
+                "dive-ball"
+            ]
+        },
+        {
+            "id": 61,
+            "name": "Poliwhirl",
+            "balls": [
+                "dive-ball"
+            ],
+            "shiny-balls": [
+                "dive-ball"
+            ]
+        },
+        {
+            "id": 62,
+            "name": "Poliwrath",
+            "balls": [
+                "dive-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 63,
+            "name": "Abra",
+            "balls": [
+                "ultra-ball",
+                "level-ball",
+                "luxury-ball"
+            ],
+            "shiny-balls": [
+                "ultra-ball"
+            ]
+        },
+        {
+            "id": 64,
+            "name": "Kadabra",
+            "balls": [
+                "ultra-ball",
+                "level-ball",
+                "luxury-ball"
+            ],
+            "shiny-balls": [
+                "ultra-ball"
+            ]
+        },
+        {
+            "id": 65,
+            "name": "Alakazam",
+            "balls": [
+                "ultra-ball",
+                "level-ball",
+                "luxury-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball",
+                "ultra-ball"
+            ]
+        },
+        {
+            "id": 66,
+            "name": "Machop",
+            "balls": [
+                "great-ball",
+                "dive-ball",
+                "strange-ball"
+            ],
+            "shiny-balls": [
+                "luxury-ball",
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 67,
+            "name": "Machoke",
+            "balls": [
+                "great-ball",
+                "heavy-ball",
+                "moon-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 68,
+            "name": "Machamp",
+            "balls": [
+                "great-ball",
+                "heavy-ball",
+                "moon-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 69,
+            "name": "Bellsprout",
+            "balls": [
+                "nest-ball",
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "ultra-ball",
+                "safari-ball",
+                "luxury-ball"
+            ]
+        },
+        {
+            "id": 70,
+            "name": "Weepinbell",
+            "balls": [
+                "nest-ball",
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "friend-ball",
+                "safari-ball"
+            ]
+        },
+        {
+            "id": 71,
+            "name": "Victreebel",
+            "balls": [
+                "nest-ball",
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball",
+                "moon-ball"
+            ]
+        },
+        {
+            "id": 72,
+            "name": "Tentacool",
+            "balls": [
+                "great-ball",
+                "lure-ball"
+            ],
+            "shiny-balls": [
+                "net-ball",
+                "friend-ball"
+            ]
+        },
+        {
+            "id": 73,
+            "name": "Tentacruel",
+            "balls": [
+                "great-ball",
+                "lure-ball"
+            ],
+            "shiny-balls": [
+                "net-ball",
+                "quick-ball",
+                "moon-ball"
+            ]
+        },
+        {
+            "id": 74,
+            "name": "Geodude",
+            "balls": [
+                "heavy-ball",
+                "safari-ball",
+                "nest-ball"
+            ],
+            "shiny-balls": [
+                "level-ball",
+                "ultra-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "heavy-ball",
+                        "ultra-ball"
+                    ],
+                    "shiny-balls": [
+                        "repeat-ball",
+                        "luxury-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "name": "Graveler",
+            "balls": [
+                "heavy-ball",
+                "safari-ball",
+                "nest-ball"
+            ],
+            "shiny-balls": [
+                "repeat-ball",
+                "safari-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "heavy-ball",
+                        "ultra-ball"
+                    ],
+                    "shiny-balls": [
+                        "repeat-ball",
+                        "luxury-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 76,
+            "name": "Golem",
+            "balls": [
+                "nest-ball",
+                "safari-ball",
+                "heavy-ball"
+            ],
+            "shiny-balls": [
+                "repeat-ball",
+                "safari-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "heavy-ball",
+                        "ultra-ball",
+                        "luxury-ball"
+                    ],
+                    "shiny-balls": [
+                        "ultra-ball",
+                        "luxury-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 77,
+            "name": "Ponyta",
+            "balls": [
+                "fast-ball",
+                "repeat-ball"
+            ],
+            "shiny-balls": [
+                "quick-ball",
+                "great-ball",
+                "dive-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Galarian",
+                    "balls": [
+                        "dream-ball",
+                        "heal-ball",
+                        "premier-ball"
+                    ],
+                    "shiny-balls": [
+                        "premier-ball",
+                        "dive-ball",
+                        "friend-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 78,
+            "name": "Rapidash",
+            "balls": [
+                "fast-ball",
+                "repeat-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball",
+                "dream-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Galarian",
+                    "balls": [
+                        "dream-ball",
+                        "heal-ball",
+                        "premier-ball"
+                    ],
+                    "shiny-balls": [
+                        "premier-ball",
+                        "dive-ball",
+                        "friend-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 79,
+            "name": "Slowpoke",
+            "balls": [
+                "heal-ball",
+                "dream-ball",
+                "love-ball"
+            ],
+            "shiny-balls": [
+                "love-ball",
+                "dream-ball",
+                "premier-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Galarian",
+                    "balls": [
+                        "heal-ball"
+                    ],
+                    "shiny-balls": [
+                        "quick-ball",
+                        "level-ball",
+                        "ultra-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 80,
+            "name": "Slowbro",
+            "balls": [
+                "heal-ball",
+                "dream-ball",
+                "love-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball",
+                "dream-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Galarian",
+                    "balls": [
+                        "dream-ball",
+                        "heal-ball"
+                    ],
+                    "shiny-balls": [
+                        "heal-ball",
+                        "quick-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 81,
+            "name": "Magnemite",
+            "balls": [
+                "great-ball",
+                "heavy-ball"
+            ],
+            "shiny-balls": [
+                "luxury-ball"
+            ]
+        },
+        {
+            "id": 82,
+            "name": "Magneton",
+            "balls": [
+                "great-ball",
+                "heavy-ball"
+            ],
+            "shiny-balls": [
+                "luxury-ball",
+                "ultra-ball"
+            ]
+        },
+        {
+            "id": 83,
+            "name": "Farfetch’d",
+            "balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Galarian",
+                    "balls": [
+                        "nest-ball",
+                        "safari-ball"
+                    ],
+                    "shiny-balls": [
+                        "nest-ball",
+                        "safari-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 84,
+            "name": "Doduo",
+            "balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball",
+                "ultra-ball"
+            ]
+        },
+        {
+            "id": 85,
+            "name": "Dodrio",
+            "balls": [
+                "nest-ball",
+                "safari-ball",
+                "timer-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball",
+                "ultra-ball"
+            ]
+        },
+        {
+            "id": 86,
+            "name": "Seel",
+            "balls": [
+                "premier-ball"
+            ],
+            "shiny-balls": [
+                "premier-ball"
+            ]
+        },
+        {
+            "id": 87,
+            "name": "Dewgong",
+            "balls": [
+                "premier-ball"
+            ],
+            "shiny-balls": [
+                "premier-ball",
+                "dive-ball"
+            ]
+        },
+        {
+            "id": 88,
+            "name": "Grimer",
+            "balls": [
+                "dream-ball",
+                "master-ball",
+                "dusk-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "friend-ball",
+                "dusk-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "friend-ball",
+                        "nest-ball"
+                    ],
+                    "shiny-balls": [
+                        "heal-ball",
+                        "dream-ball",
+                        "master-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 89,
+            "name": "Muk",
+            "balls": [
+                "dream-ball",
+                "master-ball",
+                "dusk-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "friend-ball",
+                "dusk-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "heal-ball",
+                        "dusk-ball"
+                    ],
+                    "shiny-balls": [
+                        "heal-ball",
+                        "dream-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 90,
+            "name": "Shellder",
+            "balls": [
+                "dream-ball",
+                "timer-ball",
+                "dusk-ball"
+            ],
+            "shiny-balls": [
+                "repeat-ball",
+                "level-ball"
+            ]
+        },
+        {
+            "id": 91,
+            "name": "Cloyster",
+            "balls": [
+                "heal-ball",
+                "heavy-ball",
+                "dusk-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball",
+                "great-ball",
+                "heavy-ball"
+            ]
+        },
+        {
+            "id": 92,
+            "name": "Gastly",
+            "balls": [
+                "dream-ball",
+                "dusk-ball",
+                "master-ball"
+            ],
+            "shiny-balls": [
+                "dream-ball",
+                "dusk-ball"
+            ]
+        },
+        {
+            "id": 93,
+            "name": "Haunter",
+            "balls": [
+                "dream-ball",
+                "dusk-ball",
+                "master-ball"
+            ],
+            "shiny-balls": [
+                "dream-ball",
+                "dusk-ball"
+            ]
+        },
+        {
+            "id": 94,
+            "name": "Gengar",
+            "balls": [
+                "dream-ball",
+                "dusk-ball",
+                "master-ball"
+            ],
+            "shiny-balls": [
+                "cherish-ball",
+                "dusk-ball"
+            ]
+        },
+        {
+            "id": 95,
+            "name": "Onix",
+            "balls": [
+                "heavy-ball",
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball",
+                "luxury-ball"
+            ]
+        },
+        {
+            "id": 96,
+            "name": "Drowzee",
+            "balls": [
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "dream-ball",
+                "love-ball",
+                "heal-ball"
+            ]
+        },
+        {
+            "id": 97,
+            "name": "Hypno",
+            "balls": [
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "dream-ball",
+                "love-ball",
+                "heal-ball"
+            ]
+        },
+        {
+            "id": 98,
+            "name": "Krabby",
+            "balls": [
+                "repeat-ball",
+                "poke-ball"
+            ],
+            "shiny-balls": [
+                "level-ball",
+                "ultra-ball"
+            ]
+        },
+        {
+            "id": 99,
+            "name": "Kingler",
+            "balls": [
+                "repeat-ball",
+                "poke-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "friend-ball"
+            ]
+        },
+        {
+            "id": 100,
+            "name": "Voltorb",
+            "balls": [
+                "poke-ball",
+                "sport-ball"
+            ],
+            "shiny-balls": [
+                "great-ball",
+                "dive-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Hisuian",
+                    "balls": [
+                        "poke-ball",
+                        "sport-ball"
+                    ],
+                    "shiny-balls": [
+                        "ultra-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 101,
+            "name": "Electrode",
+            "balls": [
+                "poke-ball",
+                "sport-ball"
+            ],
+            "shiny-balls": [
+                "great-ball",
+                "dive-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Hisuian",
+                    "balls": [
+                        "poke-ball",
+                        "sport-ball"
+                    ],
+                    "shiny-balls": [
+                        "ultra-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "name": "Exeggcute",
+            "balls": [
+                "heal-ball",
+                "love-ball"
+            ],
+            "shiny-balls": [
+                "luxury-ball",
+                "level-ball"
+            ]
+        },
+        {
+            "id": 103,
+            "name": "Exeggutor",
+            "balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "luxury-ball",
+                "level-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "nest-ball",
+                        "safari-ball"
+                    ],
+                    "shiny-balls": [
+                        "luxury-ball",
+                        "level-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 104,
+            "name": "Cubone",
+            "balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball"
+            ]
+        },
+        {
+            "id": 105,
+            "name": "Marowak",
+            "balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Alolan",
+                    "balls": [
+                        "dusk-ball"
+                    ],
+                    "shiny-balls": [
+                        "dusk-ball",
+                        "moon-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 106,
+            "name": "Hitmonlee",
+            "balls": [
+                "luxury-ball",
+                "ultra-ball",
+                "nest-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball"
+            ]
+        },
+        {
+            "id": 107,
+            "name": "Hitmonchan",
+            "balls": [
+                "luxury-ball",
+                "ultra-ball",
+                "dream-ball"
+            ],
+            "shiny-balls": [
+                "great-ball",
+                "nest-ball",
+                "safari-ball"
+            ]
+        },
+        {
+            "id": 108,
+            "name": "Lickitung",
+            "balls": [
+                "heal-ball",
+                "love-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball",
+                "luxury-ball"
+            ]
+        },
+        {
+            "id": 109,
+            "name": "Koffing",
+            "balls": [
+                "dream-ball",
+                "dusk-ball",
+                "master-ball"
+            ],
+            "shiny-balls": [
+                "dream-ball",
+                "dusk-ball",
+                "master-ball"
+            ]
+        },
+        {
+            "id": 110,
+            "name": "Weezing",
+            "balls": [
+                "dream-ball",
+                "dusk-ball",
+                "master-ball"
+            ],
+            "shiny-balls": [
+                "dream-ball",
+                "dusk-ball",
+                "master-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Galarian",
+                    "balls": [
+                        "dusk-ball"
+                    ],
+                    "shiny-balls": [
+                        "nest-ball",
+                        "safari-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 111,
+            "name": "Rhyhorn",
+            "balls": [
+                "heavy-ball",
+                "timer-ball"
+            ],
+            "shiny-balls": [
+                "level-ball",
+                "luxury-ball"
+            ]
+        },
+        {
+            "id": 112,
+            "name": "Rhydon",
+            "balls": [
+                "heavy-ball",
+                "timer-ball"
+            ],
+            "shiny-balls": [
+                "level-ball",
+                "luxury-ball"
+            ]
+        },
+        {
+            "id": 113,
+            "name": "Chansey",
+            "balls": [
+                "love-ball",
+                "heal-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "friend-ball"
+            ]
+        },
+        {
+            "id": 114,
+            "name": "Tangela",
+            "balls": [
+                "great-ball",
+                "net-ball",
+                "lure-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "dusk-ball",
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 115,
+            "name": "Kangaskhan",
+            "balls": [
+                "safari-ball",
+                "nest-ball",
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "safari-ball",
+                "nest-ball",
+                "ultra-ball"
+            ]
+        },
+        {
+            "id": 116,
+            "name": "Horsea",
+            "balls": [
+                "dive-ball"
+            ],
+            "shiny-balls": [
+                "net-ball"
+            ]
+        },
+        {
+            "id": 117,
+            "name": "Seadra",
+            "balls": [
+                "dive-ball"
+            ],
+            "shiny-balls": [
+                "dream-ball",
+                "great-ball"
+            ]
+        },
+        {
+            "id": 118,
+            "name": "Goldeen",
+            "balls": [
+                "timer-ball"
+            ],
+            "shiny-balls": [
+                "repeat-ball",
+                "level-ball"
+            ]
+        },
+        {
+            "id": 119,
+            "name": "Seaking",
+            "balls": [
+                "timer-ball"
+            ],
+            "shiny-balls": [
+                "repeat-ball",
+                "level-ball"
+            ]
+        },
+        {
+            "id": 120,
+            "name": "Staryu",
+            "balls": [
+                "luxury-ball",
+                "level-ball"
+            ],
+            "shiny-balls": [
+                "quick-ball",
+                "premier-ball"
+            ]
+        },
+        {
+            "id": 121,
+            "name": "Starmie",
+            "balls": [
+                "heal-ball",
+                "luxury-ball",
+                "level-ball"
+            ],
+            "shiny-balls": [
+                "lure-ball",
+                "great-ball"
+            ]
+        },
+        {
+            "id": 122,
+            "name": "Mr. Mime",
+            "balls": [
+                "heal-ball",
+                "dream-ball",
+                "premier-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "friend-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Galarian",
+                    "balls": [
+                        "dive-ball",
+                        "premier-ball"
+                    ],
+                    "shiny-balls": [
+                        "dive-ball",
+                        "premier-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 123,
+            "name": "Scyther",
+            "balls": [
+                "nest-ball",
+                "friend-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 124,
+            "name": "Jynx",
+            "balls": [
+                "heal-ball",
+                "luxury-ball",
+                "level-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball",
+                "love-ball",
+                "dream-ball"
+            ]
+        },
+        {
+            "id": 125,
+            "name": "Electabuzz",
+            "balls": [
+                "ultra-ball",
+                "level-ball"
+            ],
+            "shiny-balls": [
+                "repeat-ball",
+                "level-ball",
+                "fast-ball"
+            ]
+        },
+        {
+            "id": 126,
+            "name": "Magmar",
+            "balls": [
+                "repeat-ball",
+                "level-ball"
+            ],
+            "shiny-balls": [
+                "love-ball",
+                "heal-ball",
+                "dream-ball"
+            ]
+        },
+        {
+            "id": 127,
+            "name": "Pinsir",
+            "balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball",
+                "quick-ball"
+            ]
+        },
+        {
+            "id": 128,
+            "name": "Tauros",
+            "balls": [
+                "nest-ball",
+                "poke-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Combat Breed",
+                    "balls": [
+                        "luxury-ball"
+                    ],
+                    "shiny-balls": [
+                        "luxury-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 129,
+            "name": "Magikarp",
+            "balls": [
+                "repeat-ball",
+                "poke-ball",
+                "sport-ball"
+            ],
+            "shiny-balls": [
+                "luxury-ball",
+                "ultra-ball",
+                "repeat-ball"
+            ]
+        },
+        {
+            "id": 130,
+            "name": "Gyarados",
+            "balls": [
+                "dive-ball",
+                "quick-ball"
+            ],
+            "shiny-balls": [
+                "poke-ball",
+                "timer-ball",
+                "sport-ball"
+            ]
+        },
+        {
+            "id": 131,
+            "name": "Lapras",
+            "balls": [
+                "dive-ball"
+            ],
+            "shiny-balls": [
+                "dream-ball",
+                "heal-ball",
+                "master-ball"
+            ]
+        },
+        {
+            "id": 132,
+            "name": "Ditto",
+            "balls": [
+                "heal-ball",
+                "dream-ball",
+                "love-ball"
+            ],
+            "shiny-balls": [
+                "dive-ball",
+                "great-ball"
+            ]
+        },
+        {
+            "id": 133,
+            "name": "Eevee",
+            "balls": [
+                "nest-ball",
+                "safari-ball"
+            ],
+            "shiny-balls": [
+                "premier-ball",
+                "dive-ball"
+            ]
+        },
+        {
+            "id": 134,
+            "name": "Vaporeon",
+            "balls": [
+                "dive-ball",
+                "net-ball"
+            ],
+            "shiny-balls": [
+                "dream-ball",
+                "heal-ball",
+                "master-ball"
+            ]
+        },
+        {
+            "id": 135,
+            "name": "Jolteon",
+            "balls": [
+                "ultra-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball",
+                "friend-ball",
+                "ultra-ball"
+            ]
+        },
+        {
+            "id": 136,
+            "name": "Flareon",
+            "balls": [
+                "repeat-ball",
+                "fast-ball"
+            ],
+            "shiny-balls": [
+                "repeat-ball",
+                "fast-ball",
+                "level-ball"
+            ]
+        },
+        {
+            "id": 137,
+            "name": "Porygon",
+            "balls": [
+                "lure-ball",
+                "great-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball",
+                "great-ball",
+                "dream-ball"
+            ]
+        },
+        {
+            "id": 138,
+            "name": "Omanyte",
+            "balls": [
+                "dive-ball",
+                "quick-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball"
+            ]
+        },
+        {
+            "id": 139,
+            "name": "Omastar",
+            "balls": [
+                "dive-ball",
+                "quick-ball"
+            ],
+            "shiny-balls": [
+                "heal-ball"
+            ]
+        },
+        {
+            "id": 140,
+            "name": "Kabuto",
+            "balls": [
+                "luxury-ball",
+                "nest-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 141,
+            "name": "Kabutops",
+            "balls": [
+                "luxury-ball",
+                "nest-ball"
+            ],
+            "shiny-balls": [
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 142,
+            "name": "Aerodactyl",
+            "balls": [
+                "dream-ball",
+                "heal-ball",
+                "master-ball"
+            ],
+            "shiny-balls": [
+                "dream-ball",
+                "heal-ball",
+                "master-ball"
+            ]
+        },
+        {
+            "id": 143,
+            "name": "Snorlax",
+            "balls": [
+                "net-ball",
+                "heavy-ball",
+                "moon-ball"
+            ],
+            "shiny-balls": [
+                "heavy-ball",
+                "moon-ball",
+                "great-ball"
+            ]
+        },
+        {
+            "id": 144,
+            "name": "Articuno",
+            "balls": [
+                "dive-ball"
+            ],
+            "shiny-balls": [
+                "dive-ball",
+                "premier-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Galarian",
+                    "balls": [
+                        "dream-ball",
+                        "dusk-ball"
+                    ],
+                    "shiny-balls": [
+                        "great-ball",
+                        "cherish-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 145,
+            "name": "Zapdos",
+            "balls": [
+                "ultra-ball",
+                "level-ball"
+            ],
+            "shiny-balls": [
+                "ultra-ball",
+                "level-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Galarian",
+                    "balls": [
+                        "repeat-ball",
+                        "luxury-ball",
+                        "ultra-ball"
+                    ],
+                    "shiny-balls": [
+                        "ultra-ball",
+                        "cherish-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 146,
+            "name": "Moltres",
+            "balls": [
+                "repeat-ball"
+            ],
+            "shiny-balls": [
+                "repeat-ball",
+                "fast-ball",
+                "heal-ball"
+            ],
+            "forms": [
+                {
+                    "formName": "Galarian",
+                    "balls": [
+                        "timer-ball",
+                        "dusk-ball",
+                        "luxury-ball"
+                    ],
+                    "shiny-balls": [
+                        "poke-ball",
+                        "ultra-ball",
+                        "cherish-ball"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 147,
+            "name": "Dratini",
+            "balls": [
+                "dive-ball"
+            ],
+            "shiny-balls": [
+                "love-ball",
+                "heal-ball"
+            ]
+        },
+        {
+            "id": 148,
+            "name": "Dragonair",
+            "balls": [
+                "dive-ball"
+            ],
+            "shiny-balls": [
+                "love-ball",
+                "heal-ball"
+            ]
+        },
+        {
+            "id": 149,
+            "name": "Dragonite",
+            "balls": [
+                "fast-ball",
+                "repeat-ball",
+                "level-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 150,
+            "name": "Mewtwo",
+            "balls": [
+                "master-ball"
+            ],
+            "shiny-balls": [
+                "friend-ball",
+                "nest-ball"
+            ]
+        },
+        {
+            "id": 151,
+            "name": "Mew",
+            "balls": [
+                "cherish-ball",
+                "poke-ball",
+                "premier-ball"
+            ],
+            "shiny-balls": [
+                "dive-ball",
+                "great-ball",
+                "poke-ball"
+            ]
+        }
+    ]
+}
