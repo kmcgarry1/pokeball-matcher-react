@@ -685,8 +685,7 @@
             "name": "Paras",
             "balls": [
                 "repeat-ball",
-                "sport-ball",
-                "repeat-ball"
+                "sport-ball"
             ],
             "shiny-balls": [
                 "repeat-ball",
