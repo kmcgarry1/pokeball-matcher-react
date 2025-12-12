@@ -60,7 +60,7 @@ export async function fetchAllPokemon(): Promise<PokemonListItem[]> {
 
 const ALL_ITEMS_ENDPOINT = `${API_BASE_URL}/item?limit=100000&offset=0`;
 
-let cachedBalls: { data: typeof POKEBALLS | null; fetchedAt: number | null };
+let cachedBalls: { data: typeof POKEBALLS | null; fetchedAt: number | null } = { data: null, fetchedAt: null };
 
 export async function getAllPokeballs(): Promise<typeof POKEBALLS> {
   const now = Date.now();
