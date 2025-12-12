@@ -1,0 +1,47 @@
+{
+  "pokemon": [
+    {
+      "id": 152,
+      "name": "Chikorita",
+      "balls": ["friend-ball", "nest-ball"],
+      "shiny-balls": ["luxury-ball", "ultra-ball"]
+    },
+    {
+      "id": 153,
+      "name": "Bayleef",
+      "balls": ["friend-ball", "nest-ball"],
+      "shiny-balls": ["luxury-ball", "ultra-ball"]
+    },
+    {
+      "id": 154,
+      "name": "Meganium",
+      "balls": ["friend-ball", "nest-ball"],
+      "shiny-balls": ["luxury-ball", "ultra-ball"]
+    },
+    {
+      "id": 155,
+      "name": "Cyndaquil",
+      "balls": ["repeat-ball", "level-ball"],
+      "shiny-balls": ["luxury-ball", "level-ball"]
+    },
+    {
+      "id": 156,
+      "name": "Quilava",
+      "balls": ["repeat-ball", "level-ball"],
+      "shiny-balls": ["luxury-ball", "level-ball"]
+    },
+    {
+      "id": 157,
+      "name": "Typhlosion",
+      "balls": ["repeat-ball", "level-ball"],
+      "shiny-balls": ["luxury-ball", "level-ball"],
+      "forms": [
+        {
+          "formName": "Hisuian",
+          "balls": ["dream-ball", "great-ball", "master-ball"],
+          "shiny-balls": ["dream-ball", "great-ball", "moon-ball"]
+        }
+      ]
+    }
+  ]
+}
