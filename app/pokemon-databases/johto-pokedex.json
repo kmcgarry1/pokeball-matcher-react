@@ -37,7 +37,7 @@
       "shiny-balls": ["luxury-ball", "level-ball"],
       "forms": [
         {
-          "name": "Hisuian Typhlosion",
+          "formName": "Hisuian Typhlosion",
           "balls": ["dream-ball", "great-ball", "master-ball"],
           "shiny-balls": ["dream-ball", "great-ball", "moon-ball"]
         }
