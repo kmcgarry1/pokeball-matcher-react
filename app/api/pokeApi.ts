@@ -58,9 +58,7 @@ export async function fetchAllPokemon(): Promise<PokemonListItem[]> {
   return formattedData;
 }
 
-const ALL_ITEMS_ENDPOINT = `${API_BASE_URL}/item?limit=100000&offset=0`;
-
-let cachedBalls: { data: typeof POKEBALLS | null; fetchedAt: number | null };
+let cachedBalls: { data: typeof POKEBALLS | null; fetchedAt: number | null } = { data: null, fetchedAt: null };
 
 export async function getAllPokeballs(): Promise<typeof POKEBALLS> {
   const now = Date.now();
@@ -73,19 +71,8 @@ export async function getAllPokeballs(): Promise<typeof POKEBALLS> {
     return cachedBalls.data;
   }
 
-  const response = await fetch(ALL_ITEMS_ENDPOINT);
-  if (!response.ok) {
-    throw new Error(`Failed to fetch all items: ${response.statusText}`);
-  }
-
-  const rawData = await response.json();
-  const pokeballNames = Object.keys(POKEBALLS);
-  const fetchedPokeballs = rawData.results.filter((item: { name: string }) =>
-    pokeballNames.includes(item.name)
-  );
-
   cachedBalls = { data: POKEBALLS, fetchedAt: now };
-  return fetchedPokeballs;
+  return POKEBALLS;
 }
 
 export function clearPokeballCache() {
