@@ -23,7 +23,7 @@ export type PokemonListItem = {
   url: string;
 };
 
-let cachedAll: { data: PokemonListItem[] | null; fetchedAt: number | null };
+let cachedAll: { data: PokemonListItem[] | null; fetchedAt: number | null } = { data: null, fetchedAt: null };
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
 
 export async function fetchAllPokemon(): Promise<PokemonListItem[]> {
