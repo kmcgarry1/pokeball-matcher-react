@@ -2,13 +2,29 @@
 
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
-import pokedexJson from "./pokemon-databases/kanto-pokedex.json";
+import johtoPokedexJson from "./pokemon-databases/johto-pokedex.json";
+import kantoPokedexJson from "./pokemon-databases/kanto-pokedex.json";
 import { POKEBALLS, PokeballId, Pokemon } from "./types/pokemon";
 
 type PokedexData = { pokemon: Pokemon[] };
+type PokedexKey = "kanto" | "johto";
 type BallDetails = { id: PokeballId; name: string; spriteUrl: string };
 
-const pokedex = (pokedexJson as PokedexData).pokemon ?? [];
+const POKEDEXES: Record<
+  PokedexKey,
+  { label: string; badge: string; pokemon: Pokemon[] }
+> = {
+  kanto: {
+    label: "Kanto • Gen 1",
+    badge: "Gen 1 Pokédex",
+    pokemon: (kantoPokedexJson as PokedexData).pokemon ?? [],
+  },
+  johto: {
+    label: "Johto • Gen 2",
+    badge: "Gen 2 Pokédex",
+    pokemon: (johtoPokedexJson as PokedexData).pokemon ?? [],
+  },
+};
 const FORM_SPRITE_SUFFIX: Record<string, string> = {
   Alolan: "alola",
   Galarian: "galar",
@@ -242,10 +258,14 @@ function PokemonCard({
 }
 
 export default function Home() {
+  const [pokedexKey, setPokedexKey] = useState<PokedexKey>("kanto");
   const [search, setSearch] = useState("");
   const [formSelections, setFormSelections] = useState<
     Record<string, string | undefined>
   >({});
+
+  const selectedPokedex = POKEDEXES[pokedexKey];
+  const pokedex = selectedPokedex.pokemon;
 
   const filteredPokedex = useMemo(() => {
     const term = search.trim().toLowerCase();
@@ -255,12 +275,12 @@ export default function Home() {
       const nameMatch = pokemon.name.toLowerCase().includes(term);
       return idMatch || nameMatch;
     });
-  }, [search]);
+  }, [pokedex, search]);
 
   if (!pokedex.length) {
     return (
       <main className="flex min-h-screen items-center justify-center bg-slate-950 text-slate-50">
-        <p className="text-lg">No Pokémon data found.</p>
+        <p className="text-lg">No Pokémon data found for this Pokédex.</p>
       </main>
     );
   }
@@ -271,22 +291,46 @@ export default function Home() {
         <header className="flex flex-wrap items-center justify-between gap-3 rounded-3xl border border-slate-800/40 bg-slate-800/40 px-4 py-3 shadow-lg shadow-slate-900/30 backdrop-blur">
           <div className="min-w-0">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sky-200">
-              Gen 1 Pokédex
+              {selectedPokedex.badge}
             </p>
             <h1 className="text-xl font-bold text-white">Poké Ball matcher</h1>
             <p className="text-sm text-slate-200">
               Standard & shiny sprites with vertical Poké Ball columns.
             </p>
           </div>
-          <div className="flex w-full flex-1 min-w-[220px] max-w-xs items-center gap-2 rounded-2xl bg-white/10 px-3 py-2 text-sm text-white ring-1 ring-slate-600 focus-within:ring-2 focus-within:ring-sky-400">
-            <span className="text-base opacity-70">🔍</span>
-            <input
-              type="search"
-              value={search}
-              onChange={(event) => setSearch(event.target.value)}
-              placeholder="Search by name or number"
-              className="w-full bg-transparent text-sm text-white placeholder:text-slate-300 focus:outline-none"
-            />
+          <div className="flex w-full flex-col items-stretch gap-2 sm:w-auto sm:flex-row sm:items-center">
+            <div className="flex min-w-[200px] items-center gap-2 rounded-2xl bg-white/10 px-3 py-2 text-sm font-semibold text-white ring-1 ring-slate-600 focus-within:ring-2 focus-within:ring-sky-400">
+              <span className="text-base opacity-70">📖</span>
+              <select
+                value={pokedexKey}
+                onChange={(event) => {
+                  setPokedexKey(event.target.value as PokedexKey);
+                  setFormSelections({});
+                }}
+                aria-label="Select Pokédex"
+                className="w-full bg-transparent text-sm font-semibold text-white focus:outline-none"
+              >
+                {Object.entries(POKEDEXES).map(([key, dex]) => (
+                  <option
+                    key={key}
+                    value={key}
+                    className="bg-slate-900 text-white"
+                  >
+                    {dex.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div className="flex w-full min-w-[220px] items-center gap-2 rounded-2xl bg-white/10 px-3 py-2 text-sm text-white ring-1 ring-slate-600 focus-within:ring-2 focus-within:ring-sky-400 sm:max-w-xs">
+              <span className="text-base opacity-70">🔍</span>
+              <input
+                type="search"
+                value={search}
+                onChange={(event) => setSearch(event.target.value)}
+                placeholder="Search by name or number"
+                className="w-full bg-transparent text-sm text-white placeholder:text-slate-300 focus:outline-none"
+              />
+            </div>
           </div>
         </header>
 
